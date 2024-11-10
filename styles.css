@@ -8,19 +8,22 @@ table {
     border-spacing:  0.2em;
 }
 tr th, tr td{
-	border: 2px solid #f2f2f2;
-	border-radius:13px;
+	border: 1px solid #ccc;
+	border-radius:5px;
 	min-width:45%;
-	padding:1rem;
+	padding:0.5rem;
 	
 }
 tr th{
 	font-size:1.8rem;
 	font-weight:bold;
 }
-tr th{background-color:#fff;}
+tr th{background-color:#ffffff;}
 tr:nth-child(odd){
-	background-color:#f1f1f1
+	background-color:#f2f2f2;
+}
+tr:nth-child(even){
+	background-color:#ffffff;
 }
 tr td{
 	font-size:1.8rem;
