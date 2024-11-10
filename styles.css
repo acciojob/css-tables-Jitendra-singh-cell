@@ -1,32 +1,28 @@
 /*  your css code here. If applicable */
- body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 20px;
-        }
-        th, td {
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            padding: 0.5rem;
-            text-align: left;
-        }
-        th {
-            background-color: #4CAF50;
-            color: white;
-        }
-        tr:nth-child(odd) {
-            background-color: #f2f2f2;
-        }
-        tr:nth-child(even) {
-            background-color: #ffffff;
-        }
-        caption {
-            font-size: 1.5rem;
-            margin-bottom: 10px;
-        }
+*{
+	box-sizing:border-box;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing:  0.2em;
+}
+tr th, tr td{
+	border: 2px solid #f2f2f2;
+	border-radius:13px;
+	min-width:45%;
+	padding:1rem;
+	
+}
+tr th{
+	font-size:1.8rem;
+	font-weight:bold;
+}
+tr th{background-color:#fff;}
+tr:nth-child(odd){
+	background-color:#f1f1f1
+}
+tr td{
+	font-size:1.8rem;
+	font-weight:500;
+}
